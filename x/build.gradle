@@ -24,7 +24,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.luqiming666'
+                groupId = 'com.github.victor12138'
                 artifactId = 'SwipeRecyclerView'
                 version = rootProject.ext.android.versionName
             }

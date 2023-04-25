@@ -174,7 +174,7 @@ public class SwipeMenuLayout extends FrameLayout implements Controller {
         switch (action) {
             case MotionEvent.ACTION_DOWN: {
                 mDownX = mLastX = (int)ev.getX();
-                mDownY = (int)ev.getY();
+                mDownY = mLastY = (int)ev.getY();
                 return false;
             }
             case MotionEvent.ACTION_MOVE: {

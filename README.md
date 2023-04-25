@@ -47,7 +47,7 @@ implementation 'com.yanzhenjie.recyclerview:support:1.3.2'
 
 如果你使用的是android x库，那么请添加下述依赖：
 ```groovy
-implementation 'com.github.luqiming666:SwipeRecyclerView:1.4.8'
+implementation 'com.github.victor12138:SwipeRecyclerView:1.4.9'
 ```
 **注意** 记得在build.gradle中加入
 ```groovy
